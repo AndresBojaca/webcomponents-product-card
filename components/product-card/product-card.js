@@ -130,7 +130,7 @@ class productCard extends HTMLElement {
                     flex-direction: column;
                     height: auto;
                     width: 90%;
-                    margin: auto;
+                    margin: 3rem auto;
                 }
                 .product-image{
                     position: relative;
