@@ -157,6 +157,10 @@ class productCard extends HTMLElement {
                 .product-price{
                     font-size: 1.6rem !important;
                 }
+                .product-image:hover {
+                    transform: translate(-50%, -40%);
+                    cursor: pointer;
+                }
         
             }
 
