@@ -20,8 +20,8 @@ main{
     height: 100vh;
     background-color: ghostwhite;
 }
-//Responsive
-@media (max-width: 1250px){
+
+@media (max-width: 1250px) {
     main{
         height: 100%;
     }
