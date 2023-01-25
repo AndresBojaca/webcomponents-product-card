@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+:root{
+    --bg-card-color: #fff;
+    --bg-primary-color: #5A6CB2;
+    --bg-secondary-color: #79809c;
+    --filter-product-image: none;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: ghostwhite;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components NEORIS</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        <product-card
+        imgURL="../assets/img/product-image.png"
+        imgBrandURL="../assets/img/product-brand-image.png"
+        product-name="Nike Zoom 2020"
+        product-collection="Running collection"
+        product-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero omnis eos iure quibusdam labore excepturi, amet aliquid modi quam. Sapiente dolorum dolores consequuntur ipsum quis quibusdam voluptates porro id perspiciatis?"
+        product-price="300 USD">
+        <settings-component slot="settings"></settings-component>
+        <span slot="developed" class="developed">Developed by AndresBojaca</span>
+    </product-card>
+    </main>
+<!-- Scripts Imports -->
+<script type="module" src="./components/product-card/product-card.js"></script>
+<script type="module" src="./components/settings/settings-component.js"></script>
+</body>
+</html>
